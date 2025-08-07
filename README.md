@@ -1,6 +1,6 @@
 # Elements Festival Planner
 
-A modern, interactive festival planning application that allows groups to track which shows they want to attend at the Elements Festival. The application loads the real Elements Festival schedule from a CSV file and supports real-time collaboration using Firebase.
+Site to help you plan with friends for elements! Select your name at the top and then choose which sets/artists you want to see. 1 click for "want to see", 2 clicks for "must see" and click once more to delete. Also can add comments on certain sets/artists. "My schedule" shows you just the ones you want to see and shows who you can go with! "Chronological" lists the sets in chronological order instead of by stage so you can plan your day. It should take around 10 min to deploy your own version! 
 
 ## 🚀 Quick Setup Checklist
 
