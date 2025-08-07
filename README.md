@@ -9,6 +9,9 @@ A modern, interactive festival planning application that allows groups to track 
 3. **Add your group members** to `index.html` (dropdown menu)
 4. **Add colors for your group** to `script.js` (personColors object)
 5. **Deploy to Vercel** (optional - for sharing with your group)
+   - Push to Git repository
+   - Import on Vercel Dashboard
+   - Deploy in seconds!
 
 ## Features
 
@@ -113,23 +116,40 @@ service cloud.firestore {
 
 ## Vercel Deployment
 
-### 1. Install Vercel CLI
+### Option 1: Deploy from Git Repository (Recommended)
 
-```bash
-npm install -g vercel
-```
+1. **Push your code to GitHub/GitLab/Bitbucket**:
 
-### 2. Deploy to Vercel
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
 
-1. **Login to Vercel**:
+2. **Deploy on Vercel**:
+
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard)
+   - Click "New Project"
+   - Import your Git repository
+   - Vercel will automatically detect it's a static site
+   - Click "Deploy"
+
+3. **Your site will be live** in seconds at `https://your-project-name.vercel.app`
+
+**Bonus**: With Git integration, Vercel will automatically redeploy whenever you push changes to your repository!
+
+### Option 2: Deploy using Vercel CLI
+
+1. **Install Vercel CLI**:
+
+   ```bash
+   npm install -g vercel
+   ```
+
+2. **Deploy to Vercel**:
 
    ```bash
    vercel login
-   ```
-
-2. **Deploy the project**:
-
-   ```bash
    vercel
    ```
 
